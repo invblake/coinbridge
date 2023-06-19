@@ -1,0 +1,7 @@
+deployment:
+
+  tasks:
+
+    - export DEPLOYPATH=/home/vitm2483/repositories/coinbridge
+
+    - /bin/cp -R images $DEPLOYPATH
